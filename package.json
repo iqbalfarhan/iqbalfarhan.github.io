@@ -1,8 +1,19 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
-  },
-  "dependencies": {
-    "daisyui": "^3.5.0"
-  }
+    "scripts": {
+        "build": "tailwindcss build input.css -o dist/styles.css",
+        "watch": "tailwindcss build input.css -o dist/styles.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.3.3"
+    },
+    "dependencies": {
+        "daisyui": "^3.5.0"
+    },
+    "name": "iqbalfarhan.github.io",
+    "version": "1.0.0",
+    "description": "website profil iqbal",
+    "main": "index.js",
+    "repository": "https://github.com/iqbalfarhan/iqbalfarhan.github.io.git",
+    "author": "iqbalfarhan <iqbalfarhan1996@gmail.com>",
+    "license": "MIT"
 }
