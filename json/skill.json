@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Backend Native",
+		"skills": [
+			{ "name": "Native PHP", "rate": 80 },
+			{ "name": "Python", "rate": 0 }
+		]
+	},
+	{
+		"title": "Backend Framework",
+		"skills": [
+			{ "name": "Laravel", "rate": 95 },
+			{ "name": "CodeIgniter", "rate": 50 }
+		]
+	},
+	{
+		"title": "Frontend Framework",
+		"skills": [
+			{ "name": "Inertia JS", "rate": 80 },
+			{ "name": "React JS", "rate": 30 },
+			{ "name": "Vue JS", "rate": 76 }
+		]
+	},
+	{
+		"title": "Mobile Apps",
+		"skills": [
+			{ "name": "React Native", "rate": 76 },
+			{ "name": "Expo", "rate": 90 }
+		]
+	},
+	{
+		"title": "UI Application",
+		"skills": [
+			{ "name": "Figma", "rate": 85 },
+			{ "name": "Adbo XD", "rate": 80 }
+		]
+	}
+]
