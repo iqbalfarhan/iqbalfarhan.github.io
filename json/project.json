@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "Simpatik - Sistem penyimpanan arsip elektronik",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/simpatik.png",
 		"description": [
 			"Sistem penyimpanan arsip elektronik. aplikasi ini digunakan untuk menyimpan arsip dokumen secara elektronik sehingga tidak akan hilang, dan dapat di akses dari mana saja. peoject ini menggunakan laravel 10 PHP 8.1 menggunakan database structure mysql. tailwindcss daisyui di build dengan menggunakan vite."
 		]
@@ -160,7 +160,7 @@
 	{
 		"name": "Applikasi tools telkom",
 		"image": "/images/portfolio/p1.jpg",
-		"description" : [
+		"description": [
 			"Selain aplikasi diatas saya juga membuat beberapa tools aplikasi yang saya kerjakan di kantor tempat saya bekerja",
 			"Peduliinfra : Bot Telegram eviden kegiatan (Laravel 7)",
 			"Tracktor : Tracking and ocator Perangkat (Laravel 7)",
