@@ -3,7 +3,7 @@
 		"name": "Pulas",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Pencatatan Iuran kelas. project ini dibangun dengan menggunakan laravel 10 PHP 8.1, menggunakan database structured dalam project ini menggunakan mysql, dibangun untuk dijalankan di platform web. Package yang digunakan yaitu livewire, intervention image, spatie laravel permission dan package buatan saya iqbalfarhan08/telegramtool sebagai driver untuk penggunaan bot telegram"
 		]
 	},
 	{
