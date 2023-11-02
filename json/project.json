@@ -53,7 +53,7 @@
 		"description": [
 			"Aplikasi ini digunakan sebagai pengelolaan mata uang kripto goro dan krigan",
 			"Aplikasi ini tidak dikerjakan sampai selesai dikarenakan projectnya di hentikan oleh client",
-			"Aplikasi ini dibuat dengan React native Expo. project ini dikerjakan dalam team",
+			"Aplikasi ini dibuat dengan React native Expo. project ini dikerjakan dalam team"
 		]
 	},
 	{
@@ -167,7 +167,7 @@
 			"Oppak : Operasional Site PAK (Laravel 7)",
 			"MyHero : Dashboard STO Hero (Laravel 7)",
 			"Asetis : Pencatatan Aset IS (Laravel 7)",
-			"Kopegtel : Aplikasi koperasi Karyawan telkom (Laravel 7)",
+			"Kopegtel : Aplikasi koperasi Karyawan telkom (Laravel 7)"
 		]
 	}
 ]
