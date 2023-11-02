@@ -115,47 +115,55 @@
 		]
 	},
 	{
-		"name": "PPDB Online",
+		"name": "Social Care Community",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Website organisasi Social care community",
+			"website ini merupakan web profile yang berisi blog kegiatan organisasi dan keanggotaan organisasi.",
+			"Saya membangun web profile ini menggunakan laravel 7 php 5.2 dan bootstrap 4.6 dan mysql database"
 		]
 	},
 	{
-		"name": "Kururta",
+		"name": "PPDB Online",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Pendaftaran Peserta Didik Baru Online",
+			"Aplikasi ini bertujuan untuk mengorganisir pendaftaran siswa baru dalam suatu sekolah",
+			"Aplikasi ini saya buat dengan menggunakan laravel 6.8 dan database MYSQL"
 		]
 	},
 	{
 		"name": "HBICS Nilai",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Website Aplikasi nilai siswa HBICS",
+			"pada pembuatan website ini aplikasi dikerjakan dalam team. kami menggunakan php vanilla template dengan adminLTE ",
+			"Project ini dihentikan sebelum aplikasi dalam masa ujicoba"
 		]
 	},
 	{
 		"name": "Web STMIK Borneo Internasional",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Website Kampus STMIK Borneo Internasional",
+			"saya membangun web ini dengan menggunakan codeIgniter3 dengan sa=tyling menggunakan Bootstarap3 dan database mysql. ini merupakan pembuatan web komplex yang pertamakali saya buat"
 		]
 	},
 	{
 		"name": "Website mayabunga",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Website katalog Bunga milik mayabunga",
+			"Dibangun dengan menggunakan codeIgniter3 PHP 5. styling dengan menggunakan CSS 3. project ini merupakan project pertama saya"
 		]
 	},
 	{
 		"name": "Applikasi tools telkom",
-		"image": "/image/portfolio/p1.jpg",
+		"image": "/images/portfolio/p1.jpg",
 		"description" : [
 			"Selain aplikasi diatas saya juga membuat beberapa tools aplikasi yang saya kerjakan di kantor tempat saya bekerja",
-			"Peduliinfra : Bot Telegram  eviden kegiatan (Laravel 7)",
-			"Tracktor : Tracking and Locator Perangkat (Laravel 7)",
+			"Peduliinfra : Bot Telegram eviden kegiatan (Laravel 7)",
+			"Tracktor : Tracking and ocator Perangkat (Laravel 7)",
 			"Sikons : Tracking and Locator Perangkat (Laravel 7)",
 			"Sipci : Sistem informasi patch core info (Laravel 6.8)",
 			"Logp3 : Log temuan pekerjaan P3 (Laravel 9)",
