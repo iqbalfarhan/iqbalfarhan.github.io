@@ -1,13 +1,13 @@
 [
 	{
-		"name": "Pulas",
+		"name": "Pulas - Pencatatan iuran kelas",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
 			"Pencatatan Iuran kelas. project ini dibangun dengan menggunakan laravel 10 PHP 8.1, menggunakan database structured dalam project ini menggunakan mysql, dibangun untuk dijalankan di platform web. Package yang digunakan yaitu livewire, intervention image, spatie laravel permission dan package buatan saya iqbalfarhan08/telegramtool sebagai driver untuk penggunaan bot telegram"
 		]
 	},
 	{
-		"name": "Orderair",
+		"name": "Orderair - Order Air",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
 			"Order air, aplikasi ini bertujuan untuk pengelolaan order air selama kekurangan air di kota balikpapan, tapi hanya di gunakan di lingkup wilayah tertentu. project ini saya kerjakan sendiri dengan menggunakan bahasa pemrogramman PHP 8.1 framework Laravel 10. frontend builder dengan vite, tailwindcss dan daisyui dan database structured mysql."
@@ -17,28 +17,34 @@
 		"name": "Simper Poltekba",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Simper singkatan dari Sistem informasi perencanaan saya kerjakan secara team dengan anggota 3 orang, di project ini saya bertugas sebagai yang mengurus layout dan base applikasi. aplikasi ini bertujuan untuk mempermudah dengan cara mendigitalisasi sistem yang sudah ada (sebelummya menggunakan excel). program perencanaan di POLTEK Balikpapan. project ini menggunakan Laravel 10 PHP 8.1 dan database PostgreSQL database. package yang diinstall spatie/permission sebagai gerbang untuk pengelompokan user dan divisi dan library lainnya. mengguakan vite untuk build tailwind dan daisyui"
+			"Simper singkatan dari Sistem informasi perencanaan saya kerjakan secara team dengan anggota 3 orang.",
+			"di project ini saya bertugas sebagai yang mengurus layout dan base applikasi. aplikasi ini bertujuan untuk mempermudah dengan cara mendigitalisasi sistem yang sudah ada (sebelummya menggunakan excel). Program perencanaan di POLTEK Balikpapan.",
+			"Project ini menggunakan Laravel 10 PHP 8.1 dan database PostgreSQL database.",
+			"package yang diinstall spatie/permission sebagai gerbang untuk pengelompokan user dan divisi dan library lainnya. mengguakan vite untuk build tailwind dan daisyui"
 		]
 	},
 	{
-		"name": "Simpatik",
+		"name": "Simpatik - Sistem penyimpanan arsip elektronik",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Sistem penyimpanan arsip elektronik"
+			"Sistem penyimpanan arsip elektronik. aplikasi ini digunakan untuk menyimpan arsip dokumen secara elektronik sehingga tidak akan hilang, dan dapat di akses dari mana saja. peoject ini menggunakan laravel 10 PHP 8.1 menggunakan database structure mysql. tailwindcss daisyui di build dengan menggunakan vite."
 		]
 	},
 	{
 		"name": "Absensi PKL",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Aplikasi ini bertujuan untuk mencatatat kehadiran siswa PKL di perusahaan. aplikasi ini saya buat dalam 2 platform yaitu web dan android. pada versi web saya menggunakan laravel 8 php 7, database MYSQL, styling di build dengan laravel UI.",
+			"Aplikasi android saya menggunakan React Native Expo. meskipun bisa di build ke IOS tapi saya belum bisa melakukan testing di IOS. untuk transaksi data saya menggunakan API ke versi web absensi PKL"
 		]
 	},
 	{
 		"name": "Att SD PD 1",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Attencance SD PD 1, aplikasi Absensi kelas ini digunakan saat guru masuk ke kelas. project ini merupakan project lanjutan dari teman",
+			"Aplikasi ini merupakan aplikasi mobile android.",
+			"Pada project ini saya menggunakan React Native dan Expo"
 		]
 	},
 	{
