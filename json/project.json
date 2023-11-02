@@ -10,14 +10,14 @@
 		"name": "Orderair",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Order air, aplikasi ini bertujuan untuk pengelolaan order air selama kekurangan air di kota balikpapan, tapi hanya di gunakan di lingkup wilayah tertentu. project ini saya kerjakan sendiri dengan menggunakan bahasa pemrogramman PHP 8.1 framework Laravel 10. frontend builder dengan vite, tailwindcss dan daisyui dan database structured mysql."
 		]
 	},
 	{
 		"name": "Simper Poltekba",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Simper singkatan dari Sistem informasi perencanaan saya kerjakan secara team dengan anggota 3 orang, di project ini saya bertugas sebagai yang mengurus layout dan base applikasi. aplikasi ini bertujuan untuk mempermudah dengan cara mendigitalisasi sistem yang sudah ada (sebelummya menggunakan excel). program perencanaan di POLTEK Balikpapan. project ini menggunakan Laravel 10 PHP 8.1 dan database PostgreSQL database. package yang diinstall spatie/permission sebagai gerbang untuk pengelompokan user dan divisi dan library lainnya. mengguakan vite untuk build tailwind dan daisyui"
 		]
 	},
 	{
