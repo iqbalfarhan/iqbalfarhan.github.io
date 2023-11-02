@@ -62,7 +62,7 @@
 		"description": [
 			"Arunikasih merupakan aplikasi website pribadi saya. fitur yang ditawarkan arunikasih adalah pembuatan undangan online. saat ini masih tersedia undangan pernikahan yang kedepannya akan ditambahkan jenis undangan lainnya seperti syukuran, akikah dan lain-lain",
 			"Aplikasi ini merupakan aplikasi berbasis web yang kedepannya di rencanakan juga untuk aplikasi android dan ios",
-			"Dibuat dengan laravel 10 php 8.1, tailwidn daisyui dibuild dengan vite".
+			"Dibuat dengan laravel 10 php 8.1, tailwidn daisyui dibuild dengan vite"
 		]
 	},
 	{
