@@ -1,21 +1,21 @@
 [
 	{
 		"name": "Pulas - Pencatatan iuran kelas",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/pulas.jpg",
 		"description": [
 			"Pencatatan Iuran kelas. project ini dibangun dengan menggunakan laravel 10 PHP 8.1, menggunakan database structured dalam project ini menggunakan mysql, dibangun untuk dijalankan di platform web. Package yang digunakan yaitu livewire, intervention image, spatie laravel permission dan package buatan saya iqbalfarhan08/telegramtool sebagai driver untuk penggunaan bot telegram"
 		]
 	},
 	{
 		"name": "Orderair - Order Air",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/orderair.jpg",
 		"description": [
 			"Order air, aplikasi ini bertujuan untuk pengelolaan order air selama kekurangan air di kota balikpapan, tapi hanya di gunakan di lingkup wilayah tertentu. project ini saya kerjakan sendiri dengan menggunakan bahasa pemrogramman PHP 8.1 framework Laravel 10. frontend builder dengan vite, tailwindcss dan daisyui dan database structured mysql."
 		]
 	},
 	{
 		"name": "Simper Poltekba",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/simper.jpg",
 		"description": [
 			"Simper singkatan dari Sistem informasi perencanaan saya kerjakan secara team dengan anggota 3 orang.",
 			"di project ini saya bertugas sebagai yang mengurus layout dan base applikasi. aplikasi ini bertujuan untuk mempermudah dengan cara mendigitalisasi sistem yang sudah ada (sebelummya menggunakan excel). Program perencanaan di POLTEK Balikpapan.",
@@ -58,7 +58,7 @@
 	},
 	{
 		"name": "Arunikasih",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/arunikasih.jpg",
 		"description": [
 			"Arunikasih merupakan aplikasi website pribadi saya. fitur yang ditawarkan arunikasih adalah pembuatan undangan online. saat ini masih tersedia undangan pernikahan yang kedepannya akan ditambahkan jenis undangan lainnya seperti syukuran, akikah dan lain-lain",
 			"Aplikasi ini merupakan aplikasi berbasis web yang kedepannya di rencanakan juga untuk aplikasi android dan ios",
@@ -67,7 +67,7 @@
 	},
 	{
 		"name": "Educardia",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/educardia.jpg",
 		"description": [
 			"Pencatatan Iuran kelas"
 		]
