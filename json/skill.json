@@ -32,7 +32,16 @@
 		"title": "UI Application",
 		"skills": [
 			{ "name": "Figma", "rate": 85 },
-			{ "name": "Adbo XD", "rate": 80 }
+			{ "name": "Adobe XD", "rate": 0 }
+		]
+	},
+	{
+		"title": "Hobby & kegemaran",
+		"skills": [
+			{ "name": "Programming", "rate": 85 },
+			{ "name": "Belajar hal baru", "rate": 70 },
+			{ "name": "Bulutangkis", "rate": 70 },
+			{ "name": "Mechanical keyboard", "rate": 70 }
 		]
 	}
 ]
