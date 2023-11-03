@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Absensi PKL",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/absenpkl.jpg",
 		"description": [
 			"Aplikasi ini bertujuan untuk mencatatat kehadiran siswa PKL di perusahaan. aplikasi ini saya buat dalam 2 platform yaitu web dan android. pada versi web saya menggunakan laravel 8 php 7, database MYSQL, styling di build dengan laravel UI.",
 			"Aplikasi android saya menggunakan React Native Expo. meskipun bisa di build ke IOS tapi saya belum bisa melakukan testing di IOS. untuk transaksi data saya menggunakan API ke versi web absensi PKL"
@@ -163,20 +163,20 @@
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
 			"Selain aplikasi diatas saya juga membuat beberapa tools aplikasi yang saya kerjakan di kantor tempat saya bekerja",
-			"Peduliinfra : Bot Telegram eviden kegiatan (Laravel 7)",
-			"Tracktor : Tracking and ocator Perangkat (Laravel 7)",
-			"Sikons : Tracking and Locator Perangkat (Laravel 7)",
-			"Sipci : Sistem informasi patch core info (Laravel 6.8)",
-			"Logp3 : Log temuan pekerjaan P3 (Laravel 9)",
-			"Photo STO : Eviden dan pekerjaan STO (Laravel 8)",
-			"Wifitech : Dashboard dan Pencatatan ticket wifiid (Laravel 7)",
-			"Rapit : Monitoring Rancangan dan progress P3 (Laravel 7)",
-			"Bot DWDM : Bot Perangkat DWDM (Laravel 7)",
-			"GePee : Gerakan Evisiensi Peduli electricity (Laravel 7)",
-			"Oppak : Operasional Site PAK (Laravel 7)",
-			"MyHero : Dashboard STO Hero (Laravel 7)",
-			"Asetis : Pencatatan Aset IS (Laravel 7)",
-			"Kopegtel : Aplikasi koperasi Karyawan telkom (Laravel 7)"
+			"Peduliinfra Bot Telegram eviden kegiatan dengan Laravel 7",
+			"Tracktor Tracking and ocator Perangkat dengan Laravel 7",
+			"Sikons Tracking and Locator Perangkat dengan Laravel 7",
+			"Sipci Sistem informasi patch core info dengan Laravel 6.8",
+			"Logp3 Log temuan pekerjaan P3 dengan Laravel 9",
+			"Photo STO Eviden dan pekerjaan STO dengan Laravel 8",
+			"Wifitech Dashboard dan Pencatatan ticket wifiid dengan Laravel 7",
+			"Rapit Monitoring Rancangan dan progress P3 dengan Laravel 7",
+			"Bot DWDM Bot Perangkat DWDM dengan Laravel 7",
+			"GePee Gerakan Evisiensi Peduli electricity dengan Laravel 7",
+			"Oppak Operasional Site PAK dengan Laravel 7",
+			"MyHero Dashboard STO Hero dengan Laravel 7",
+			"Asetis Pencatatan Aset IS dengan Laravel 7",
+			"Kopegtel Aplikasi koperasi Karyawan telkom dengan Laravel )"
 		]
 	}
 ]
