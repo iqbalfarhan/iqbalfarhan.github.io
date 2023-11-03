@@ -77,14 +77,16 @@
 		"name": "Ovtimys",
 		"image": "/images/portfolio/ovtimys.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Pencatatan Overtime karyawan TKPK Telkom regional VI khusus divisi IS",
+			"Dibuat dengan laravel 10 php 8.1, tailwidn daisyui dibuild dengan vite"
 		]
 	},
 	{
 		"name": "Jadwal imsakiyah",
 		"image": "/images/portfolio/imsakiyah.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Jadwal imsakiyah ramadhan tiap tahun. aplikasi android berisi jam dan waktu sholat wajib dan jam buka puasa",
+			"Aplikasi ini dibuat dengan React native Expo. project ini dikerjakan dalam team"
 		]
 	},
 	{
@@ -99,7 +101,8 @@
 		"name": "Esemka",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Aplikasi bagian Akademik SMK. data siswa, guru, kelas, pelajaran dan sekolah terdapat pada aplikasi ini.",
+			"Dibuat dengan laravel 10 php 8.1, tailwidn daisyui dibuild dengan vite"
 		]
 	},
 	{
@@ -114,7 +117,8 @@
 		"name": "Nomor surat",
 		"image": "/images/portfolio/p1.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Pencatatan Nomor surat. aplikasi ini saya buat dengan code igniter selama bekerja di LP3I Balikpapan",
+			"saya membuat aplikasi ini dengan native PHP"
 		]
 	},
 	{
