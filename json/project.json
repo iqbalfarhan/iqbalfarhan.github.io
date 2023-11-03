@@ -89,9 +89,10 @@
 	},
 	{
 		"name": "Needed",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/needed.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Neeeded merupakan website pencari kerja dengan role user pencari kerja dan pencari karyawan terdapat upload berkas dan CV",
+			"Dibuat dengan laravel 10 php 8.1, tailwidn daisyui dibuild dengan vite"
 		]
 	},
 	{
@@ -103,9 +104,10 @@
 	},
 	{
 		"name": "Pos laundry",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/poslaundry.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Merupakan aplikasi Point Of Sale untuk usaha jasa laundry",
+			"Dibuat dengan laravel 10 php 8.1, tailwidn daisyui dibuild dengan vite"
 		]
 	},
 	{
