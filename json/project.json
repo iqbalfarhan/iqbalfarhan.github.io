@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "Simpatik - Sistem penyimpanan arsip elektronik",
-		"image": "/images/portfolio/simpatik.png",
+		"image": "/images/portfolio/simpatik.jpg",
 		"description": [
 			"Sistem penyimpanan arsip elektronik. aplikasi ini digunakan untuk menyimpan arsip dokumen secara elektronik sehingga tidak akan hilang, dan dapat di akses dari mana saja. peoject ini menggunakan laravel 10 PHP 8.1 menggunakan database structure mysql. tailwindcss daisyui di build dengan menggunakan vite."
 		]
@@ -40,7 +40,7 @@
 	},
 	{
 		"name": "Att SD PD 1",
-		"image": "/images/portfolio/p1.jpg",
+		"image": "/images/portfolio/attsdpd1.jpg",
 		"description": [
 			"Attencance SD PD 1, aplikasi Absensi kelas ini digunakan saat guru masuk ke kelas. project ini merupakan project lanjutan dari teman",
 			"Aplikasi ini merupakan aplikasi mobile android.",
@@ -69,7 +69,8 @@
 		"name": "Educardia",
 		"image": "/images/portfolio/educardia.jpg",
 		"description": [
-			"Pencatatan Iuran kelas"
+			"Educardia merupakan website dengan fungsi untuk konsultasi terkait kesehatan jantung, terdapat marteri kesehatan jantung dan konsultasi pasca tindakan pada jantung",
+			"Dibuat menggunakan laravel 8 dan laravel ui. tabler css"
 		]
 	},
 	{
