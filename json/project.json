@@ -1,5 +1,14 @@
 [
 	{
+		"name": ".IQMN - Iqbal Material Ngajar",
+		"image": "/images/portfolio/iqmn.jpg",
+		"description": [
+			"Webapp penyimpanan material ngajar. webapp ini menumpan data berupa url google docs yang harusnya sudah di publish",
+			"Webapp saya bangun dengan menggunakan Laravel 10 dan php 8.1",
+			"Styling menggunakan tailwindcss dan daisyui"
+		]
+	},
+	{
 		"name": "Pulas - Pencatatan iuran kelas",
 		"image": "/images/portfolio/pulas.jpg",
 		"description": [
