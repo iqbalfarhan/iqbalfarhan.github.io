@@ -28,7 +28,7 @@ const ProjectPage = () => {
             </figure>
             <div className="card-body">
               <h3 className="card-title">{data.name}</h3>
-              <p className="text-sm">{data.description}</p>
+              <p className="text-sm">{data.sinopsys}</p>
             </div>
           </div>
         ))}

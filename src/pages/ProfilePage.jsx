@@ -8,11 +8,10 @@ const ProfilePage = () => {
         <div className="flex-1 space-y-10">
           <h1 className="text-5xl font-bold">Hallo</h1>
           <p>
-            Hallo perkenalkan nama saya iqbal farhan syuhada. saya seorang web
-            developer dan juga seorang content creator baru. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Facere quos odio eum corrupti
-            at non! Rem, pariatur odio tempore ratione sapiente voluptates! Sunt
-            nostrum, veritatis doloremque eveniet quibusdam facilis esse.
+            Saya adalah seorang Web Developer dan Content Creator. Dengan
+            keahlian dalam pengembangan web, saya berdedikasi untuk menciptakan
+            solusi digital yang inovatif dan responsif. Saya juga senang berbagi
+            pengetahuan dan pengalaman melalui konten-konten yang saya buat.
           </p>
         </div>
         <div className="flex-none">
@@ -33,9 +32,9 @@ const ProfilePage = () => {
             </h3>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
-              atque repudiandae exercitationem magni tempore quasi excepturi
-              dolor unde culpa. Debitis.
+              Membangun antarmuka multi platform web dan mobile menggunakan
+              ReactJS, React Native, dan Laravel, untuk pengalaman yang mulus di
+              berbagai perangkat.
             </p>
           </div>
         </div>
@@ -47,9 +46,9 @@ const ProfilePage = () => {
             </h3>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
-              atque repudiandae exercitationem magni tempore quasi excepturi
-              dolor unde culpa. Debitis.
+              Mengembangkan sistem backend yang efisien dan skalabel menggunakan
+              PHP, JavaScript, dan Go, memastikan performa yang optimal dan
+              keamanan data.
             </p>
           </div>
         </div>
