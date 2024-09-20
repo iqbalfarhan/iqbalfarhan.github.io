@@ -4,6 +4,7 @@ import MainLayout from './layouts/MainLayout';
 import ProfilePage from './pages/ProfilePage';
 import ProjectPage from './pages/ProjectPage';
 import ContactPage from './pages/ContactPage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
 
 const router = createHashRouter([
   {
@@ -17,6 +18,10 @@ const router = createHashRouter([
       {
         path: 'project',
         element: <ProjectPage />,
+      },
+      {
+        path: 'project/:id',
+        element: <ProjectDetailPage />,
       },
       {
         path: 'contact',

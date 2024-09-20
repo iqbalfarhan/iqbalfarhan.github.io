@@ -16,7 +16,7 @@
 
 @layer components {
   .masonry {
-    @apply columns-3 space-y-4;
+    @apply md:columns-2 lg:columns-3 space-y-4;
   }
   .masonry-item {
     @apply break-inside-avoid;

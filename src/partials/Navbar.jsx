@@ -17,7 +17,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="hidden md:flex menu menu-horizontal px-1">
           <li>
             <NavLink to={'/'}>
               <User size={16} />

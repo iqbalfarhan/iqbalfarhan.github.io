@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
+import ProjectCard from '../components/ProjectCard';
 
 const ProjectPage = () => {
   const [datas, setDatas] = useState([]);
@@ -19,18 +20,7 @@ const ProjectPage = () => {
 
       <div className="masonry">
         {datas.map((data) => (
-          <div
-            className="card masonry-item bg-base-200 hover:scale-105 transition-all cursor-pointer"
-            key={data.id}
-          >
-            <figure className="aspect-video w-full">
-              <img src={data.image} alt="" className="bg-base-300 w-full" />
-            </figure>
-            <div className="card-body">
-              <h3 className="card-title">{data.name}</h3>
-              <p className="text-sm">{data.sinopsys}</p>
-            </div>
-          </div>
+          <ProjectCard data={data} key={data.id} />
         ))}
       </div>
     </>

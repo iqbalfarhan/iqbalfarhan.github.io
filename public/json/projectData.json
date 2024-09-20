@@ -1,13 +1,46 @@
 [
   {
-    "id": 1,
+    "id": "iqmn",
     "name": ".IQMN",
     "sinopsys": "Merupakan wadah materi belajar dan mengajar milik saya probadi, yang di gunakan dalam proses belajar mengajar di sebuah lembaga pendidikan.",
     "description": "Aplikasi ini berbasis web dan dapat diinstal di perangkat seperti laptop maupun smartphone yang kompatibel dengan PWA. Aplikasi ini dibangun menggunakan Laravel 11, Livewire, Tailwind CSS, dan DaisyUI, serta menggunakan database MySQL. Aplikasi ini memiliki sejumlah fitur yang terus dikembangkan, seperti daftar materi belajar yang dapat diakses oleh pelajar dan diunggah oleh pengajar, kuis pada setiap materi, ujian atau tugas, autentikasi OAuth menggunakan akun GitHub, manajemen pengguna dan grup, serta pengelolaan database langsung dari dalam aplikasi. Fitur-fitur lainnya akan terus ditambahkan atau diperbaiki seiring dengan perkembangan aplikasi ini.",
     "status": "active development",
-    "image": "images/proejct1.jpg",
+    "image": "images/iqmn.png",
     "platform": ["web", "pwa"],
     "address": "https://iqmn.my.id",
     "technologies": ["Laravel 10", "Tailwind CSS", "Daisyui", "MySQL"]
+  },
+  {
+    "id": "arunikasih",
+    "name": "Arunikasih Online Invitation",
+    "sinopsys": "Merupakan website yang berguna untuk pembuatan undangan online untuk undangan pernikahan, syukuran, akikah dan kitanan, namun masih terbatas untuk undangan pernikahan.",
+    "description": "Merupakan website yang berguna untuk pembuatan undangan online diantaranya: undangan pernikahan, syukuran, akikah dan kitanan, namun masih terbatas untuk undangan pernikahan. Website ini masih dalam status active development yaitu masih aktif dalam pembaruan fitur-fitur dan tampilan sehingga bisa digunkan untuk pilihan undangan yang lainnya. website ini dibangun menggunakan bahasa program PHP dengan laravel sebagai framework utama, tailwindcss dan daisyui sebagai layout dan database MySQL",
+    "status": "active development",
+    "image": "images/arunikasih.png",
+    "platform": ["web"],
+    "address": "https://arunikasih.com",
+    "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
+  },
+  {
+    "id": "poscoffe",
+    "name": "Point of Sale Coffee",
+    "sinopsys": "Project tutorial pembuatan aplikasi Point of sale di channel youtube saya pribadi @iqbalfarhan08",
+    "description": "",
+    "status": "active development",
+    "image": "images/arunikasih.png",
+    "platform": ["web"],
+    "address": "https://arunikasih.com",
+    "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
+  },
+  {
+    "id": "moreapps",
+    "name": ">10 App atau Tools dikantor",
+    "sinopsys": "Project tutorial pembuatan aplikasi POS (Point of sale) di channel youtube saya pribadi (iqbalfarhan08)",
+    "description": "",
+    "status": "active development",
+    "image": "images/arunikasih.png",
+    "platform": ["web", "bot telegram", "android"],
+    "address": "",
+    "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
   }
 ]
