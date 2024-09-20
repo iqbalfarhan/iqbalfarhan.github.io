@@ -1,4 +1,5 @@
 import { Instagram } from 'lucide-react';
+import { Youtube } from 'lucide-react';
 import { Mail } from 'lucide-react';
 import { Send } from 'lucide-react';
 import { useState } from 'react';
@@ -48,6 +49,10 @@ const ContactPage = () => {
             </button>
             <button className="btn">
               <Send size={20} />
+              <span>@iqbalfarhan08</span>
+            </button>
+            <button className="btn">
+              <Youtube size={20} />
               <span>@iqbalfarhan08</span>
             </button>
           </div>
