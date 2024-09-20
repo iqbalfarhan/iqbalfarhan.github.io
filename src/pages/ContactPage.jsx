@@ -1,18 +1,40 @@
 import { Instagram } from 'lucide-react';
 import { Mail } from 'lucide-react';
 import { Send } from 'lucide-react';
+import { useState } from 'react';
 
 const ContactPage = () => {
+  const [name, setName] = useState('');
+  const [pertanyaan, setPertanyaan] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Membuat pesan yang akan dikirim ke WhatsApp
+    const message = `Halo, nama saya ${name}. Saya ingin bertanya: ${pertanyaan}`;
+
+    // Nomor WhatsApp tujuan
+    const phoneNumber = '08999779527';
+
+    // Membuat URL untuk wa.me dengan nomor dan pesan
+    const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+
+    // Membuka WhatsApp menggunakan wa.me
+    window.open(waLink, '_blank');
+  };
   return (
     <>
       <div className="grid grid-cols-2 gap-10">
         <div className="space-y-10">
           <h1 className="text-5xl font-bold">Kontak saya</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            soluta aut alias amet numquam unde. Ipsam, minima veritatis nostrum
-            saepe soluta voluptatum ad doloribus asperiores dolor eaque natus,
-            sit ipsum!
+            Jika Anda memiliki pertanyaan, saran, atau ingin berdiskusi, jangan
+            ragu untuk menghubungi saya. Saya akan dengan senang hati merespons
+            setiap pesan Anda sesegera mungkin. Silakan gunakan salah satu cara
+            kontak di bawah ini atau kirim pertanyaan Anda melalui formulir di
+            sebelah kanan.
           </p>
 
           <div className="flex flex-wrap gap-1">
@@ -31,19 +53,23 @@ const ContactPage = () => {
           </div>
         </div>
         <div className="card bg-base-200">
-          <div className="card-body">
+          <form className="card-body" onSubmit={handleSubmit}>
             <h3 className="card-title">Kontak saya</h3>
 
             <div className="py-4 space-y-2">
               <input
                 type="text"
                 className="input w-full"
-                placeholder="Nama dan email kamu"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Nama dan email anda"
               />
               <textarea
                 type="text"
                 className="textarea w-full"
-                placeholder="Pertanyaan atau diskusi"
+                placeholder="Pertanyaan atau diskusi anda"
+                value={pertanyaan}
+                onChange={(e) => setPertanyaan(e.target.value)}
                 rows={5}
               ></textarea>
             </div>
@@ -51,10 +77,10 @@ const ContactPage = () => {
             <div className="card-actions">
               <button className="btn btn-primary">
                 <Send size={20} />
-                <span>Kirim pertanyaan</span>
+                <span>Kirim pesan</span>
               </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </>
