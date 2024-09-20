@@ -1,72 +1,46 @@
 [
   {
-    "id": 1,
-    "name": "Project 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "status": "active",
-    "image": "images/proejct1.jpg"
+    "id": "iqmn",
+    "name": ".IQMN",
+    "sinopsys": "Merupakan wadah materi belajar dan mengajar milik saya probadi, yang di gunakan dalam proses belajar mengajar di sebuah lembaga pendidikan.",
+    "description": "Aplikasi ini berbasis web dan dapat diinstal di perangkat seperti laptop maupun smartphone yang kompatibel dengan PWA. Aplikasi ini dibangun menggunakan Laravel 11, Livewire, Tailwind CSS, dan DaisyUI, serta menggunakan database MySQL. Aplikasi ini memiliki sejumlah fitur yang terus dikembangkan, seperti daftar materi belajar yang dapat diakses oleh pelajar dan diunggah oleh pengajar, kuis pada setiap materi, ujian atau tugas, autentikasi OAuth menggunakan akun GitHub, manajemen pengguna dan grup, serta pengelolaan database langsung dari dalam aplikasi. Fitur-fitur lainnya akan terus ditambahkan atau diperbaiki seiring dengan perkembangan aplikasi ini.",
+    "status": "active development",
+    "image": "images/iqmn.png",
+    "platform": ["web", "pwa"],
+    "address": "https://iqmn.my.id",
+    "technologies": ["Laravel 10", "Tailwind CSS", "Daisyui", "MySQL"]
   },
   {
-    "id": 2,
-    "name": "Project 2",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "status": "inactive",
-    "image": "images/proejct1.jpg"
+    "id": "arunikasih",
+    "name": "Arunikasih Online Invitation",
+    "sinopsys": "Merupakan website yang berguna untuk pembuatan undangan online untuk undangan pernikahan, syukuran, akikah dan kitanan, namun masih terbatas untuk undangan pernikahan.",
+    "description": "Merupakan website yang berguna untuk pembuatan undangan online diantaranya: undangan pernikahan, syukuran, akikah dan kitanan, namun masih terbatas untuk undangan pernikahan. Website ini masih dalam status active development yaitu masih aktif dalam pembaruan fitur-fitur dan tampilan sehingga bisa digunkan untuk pilihan undangan yang lainnya. website ini dibangun menggunakan bahasa program PHP dengan laravel sebagai framework utama, tailwindcss dan daisyui sebagai layout dan database MySQL",
+    "status": "active development",
+    "image": "images/arunikasih.png",
+    "platform": ["web"],
+    "address": "https://arunikasih.com",
+    "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
   },
   {
-    "id": 3,
-    "name": "Project 3",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "status": "completed",
-    "image": "images/proejct1.jpg"
+    "id": "poscoffe",
+    "name": "Point of Sale Coffee",
+    "sinopsys": "Project tutorial pembuatan aplikasi Point of sale di channel youtube saya pribadi @iqbalfarhan08",
+    "description": "",
+    "status": "active development",
+    "image": "images/arunikasih.png",
+    "platform": ["web"],
+    "address": "https://arunikasih.com",
+    "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
   },
   {
-    "id": 4,
-    "name": "Project 4",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
-    "status": "active",
-    "image": "images/proejct2.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Project 5",
-    "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    "status": "inactive",
-    "image": "images/proejct1.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Project 6",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "status": "completed",
-    "image": "images/proejct1.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Project 7",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "status": "active",
-    "image": "images/proejct1.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Project 8",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa.",
-    "status": "inactive",
-    "image": "images/proejct1.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Project 9",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "status": "completed",
-    "image": "images/proejct1.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Project 10",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "status": "active",
-    "image": "images/proejct1.jpg"
+    "id": "moreapps",
+    "name": ">10 App atau Tools dikantor",
+    "sinopsys": "Project tutorial pembuatan aplikasi POS (Point of sale) di channel youtube saya pribadi (iqbalfarhan08)",
+    "description": "",
+    "status": "active development",
+    "image": "images/arunikasih.png",
+    "platform": ["web", "bot telegram", "android"],
+    "address": "",
+    "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
   }
 ]
