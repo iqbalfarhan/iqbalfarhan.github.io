@@ -1,5 +1,6 @@
 import { Instagram } from 'lucide-react';
 import { Youtube } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { Mail } from 'lucide-react';
 import { Send } from 'lucide-react';
 import { useState } from 'react';
@@ -33,25 +34,29 @@ const ContactPage = () => {
           </p>
 
           <div className="flex flex-wrap gap-1">
-            <button className="btn">
+            <a href="mailto:iqbalfarhan1996@gmail.com" className="btn">
               <Mail size={20} />
               <span>iqbalfarhan1996@gmail.com</span>
-            </button>
-            <button className="btn">
+            </a>
+            <a href="https://instagram.com/iqbalfarhan08" className="btn">
               <Instagram size={20} />
               <span>@iqbalfarhan08</span>
-            </button>
-            <button className="btn">
+            </a>
+            <a href="https://t.me/iqbalfarhan08" className="btn">
               <Send size={20} />
               <span>@iqbalfarhan08</span>
-            </button>
-            <button className="btn">
+            </a>
+            <a href="https://www.youtube.com/@iqbalfarhan08" className="btn">
               <Youtube size={20} />
               <span>@iqbalfarhan08</span>
-            </button>
+            </a>
+            <a href="https://github.com/iqbalfarhan" className="btn">
+              <Github size={20} />
+              <span>iqbalfarhan</span>
+            </a>
           </div>
         </div>
-        <div className="card bg-base-200">
+        <div className="card bg-base-200 h-fit">
           <form className="card-body" onSubmit={handleSubmit}>
             <h3 className="card-title">Kontak saya</h3>
 
