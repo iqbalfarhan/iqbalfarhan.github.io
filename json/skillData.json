@@ -1,0 +1,78 @@
+[
+  {
+    "name": "FullStack frameworks",
+    "descriptions": "Saya menggunakan beberapa framework untuk mempercepat waktu pengerjaan project saya diantaranya Laravel untuk bahasa PHP dan NextJS untuk JavaScript",
+    "datas": [
+      {
+        "tech": "Laravel",
+        "value": 98
+      },
+      {
+        "tech": "Next JS",
+        "value": 40
+      }
+    ]
+  },
+  {
+    "name": "Frontend frameworks",
+    "descriptions": "Membangun antarmuka multi platform web dan mobile menggunakan ReactJS, React Native, dan Laravel, untuk pengalaman yang mulus di berbagai perangkat.",
+    "datas": [
+      {
+        "tech": "React JS",
+        "value": 80
+      },
+      {
+        "tech": "React Native Expo",
+        "value": 80
+      },
+      {
+        "tech": "Flutter",
+        "value": 20
+      },
+      {
+        "tech": "Vue JS",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "name": "Backend frameworks",
+    "descriptions": "Mengembangkan sistem backend yang efisien dan skalabel menggunakan PHP, JavaScript, dan Go, memastikan performa yang optimal dan keamanan data.",
+    "datas": [
+      {
+        "tech": "Laravel API",
+        "value": 97
+      },
+      {
+        "tech": "Express JS",
+        "value": 80
+      },
+      {
+        "tech": "Nest JS",
+        "value": 60
+      },
+      {
+        "tech": "Golang",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "name": "Databases",
+    "descriptions": "Database atau basis data yang biasa saya gunakan dalam membangun aplikasi saya di berbagai aplikasi web dan tools di Backend dan juga FullStack.",
+    "datas": [
+      {
+        "tech": "MySQL",
+        "value": 99
+      },
+      {
+        "tech": "Postgres",
+        "value": 70
+      },
+      {
+        "tech": "MongoDB",
+        "value": 65
+      }
+    ]
+  }
+]
