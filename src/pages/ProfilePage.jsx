@@ -4,26 +4,27 @@ import { LayoutDashboard } from 'lucide-react';
 const ProfilePage = () => {
   return (
     <>
-      <div className="flex gap-10">
+      <div className="flex flex-col-reverse md:flex-row gap-10">
         <div className="flex-1 space-y-10">
           <h1 className="text-5xl font-bold">Hallo</h1>
           <p>
-            Saya adalah seorang Web Developer dan Content Creator. Dengan
-            keahlian dalam pengembangan web, saya berdedikasi untuk menciptakan
-            solusi digital yang inovatif dan responsif. Saya juga senang berbagi
-            pengetahuan dan pengalaman melalui konten-konten yang saya buat.
+            Nama saya Iqbal Farhan Syuhada saya adalah seorang Web Developer dan
+            Content Creator. Dengan keahlian dalam pengembangan web, saya
+            berdedikasi untuk menciptakan solusi digital yang inovatif dan
+            responsif. Saya juga senang berbagi pengetahuan dan pengalaman
+            melalui konten-konten yang saya buat.
           </p>
         </div>
         <div className="flex-none">
           <div className="avatar">
-            <div className="w-48 rounded-lg">
+            <div className="w-full md:w-48 rounded-lg mx-auto">
               <img src="iqbal.jpeg" alt="" />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="card bg-base-200">
           <div className="card-body">
             <h3 className="card-title">
