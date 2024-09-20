@@ -11,23 +11,16 @@ const ContactPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Membuat pesan yang akan dikirim ke WhatsApp
     const message = `Halo, nama saya ${name}. Saya ingin bertanya: ${pertanyaan}`;
-
-    // Nomor WhatsApp tujuan
     const phoneNumber = '08999779527';
-
-    // Membuat URL untuk wa.me dengan nomor dan pesan
     const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
-
-    // Membuka WhatsApp menggunakan wa.me
     window.open(waLink, '_blank');
   };
   return (
     <>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid md:grid-cols-2 gap-10">
         <div className="space-y-10">
           <h1 className="text-5xl font-bold">Kontak saya</h1>
           <p>
@@ -35,7 +28,8 @@ const ContactPage = () => {
             ragu untuk menghubungi saya. Saya akan dengan senang hati merespons
             setiap pesan Anda sesegera mungkin. Silakan gunakan salah satu cara
             kontak di bawah ini atau kirim pertanyaan Anda melalui formulir di
-            sebelah kanan.
+            <span className="md:hidden">bawah ini.</span>
+            <span className="hidden md:block">sebelah kanan.</span>
           </p>
 
           <div className="flex flex-wrap gap-1">

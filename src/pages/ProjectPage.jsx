@@ -11,11 +11,11 @@ const ProjectPage = () => {
   }, []);
   return (
     <>
-      <h1 className="text-5xl font-bold">Portofolioku</h1>
+      <h1 className="text-5xl font-bold">Portofolio</h1>
       <p>
-        Berikut ini adalah beberapa project yang telah saya kerjakan secara
-        individu maupun dengan kelompok saya. silakan dilihat2 siapa tau
-        tertarik.
+        Berikut adalah beberapa proyek yang telah saya kerjakan, baik secara
+        individu maupun dalam kelompok. Silakan dilihat, semoga dapat menarik
+        perhatian Anda.
       </p>
 
       <div className="masonry">

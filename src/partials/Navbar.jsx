@@ -2,20 +2,21 @@ import { Box } from 'lucide-react';
 import { Menu } from 'lucide-react';
 import { Phone } from 'lucide-react';
 import { User } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className="navbar bg-base-200">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl space-x-1">
+        <Link to={'/'} className="btn btn-ghost text-xl space-x-1">
           <div className="avatar">
             <div className="w-6 rounded-lg">
               <img src="iqbal.jpeg" alt="" />
             </div>
           </div>
           <span>iqbal farhan</span>
-        </a>
+        </Link>
       </div>
       <div className="flex-none">
         <div className="dropdown md:hidden dropdown-end">
