@@ -36,7 +36,7 @@ const ProjectDetailPage = () => {
                   <div key={index} className="badge badge-neutral">
                     {item}
                   </div>
-                )
+                ),
               )}
           </div>
           <div className="space-y-4">
@@ -46,7 +46,7 @@ const ProjectDetailPage = () => {
               {project.address ? (
                 <>
                   aplikasi ini dapat di akses di{' '}
-                  <a href="project.address" target="_blank" className="link">
+                  <a href={project.address} target="_blank" className="link">
                     {project.address}
                   </a>
                 </>
