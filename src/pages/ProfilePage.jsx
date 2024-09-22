@@ -41,7 +41,7 @@ const ProfilePage = () => {
           datas.map((item, index) => (
             <div className="card bg-base-200" key={index}>
               <div className="card-body space-y-4">
-                <h3 className="card-title text-2xl flex-col md:flex-row items-start">
+                <h3 className="card-title text-2xl flex-col md:flex-row items-center">
                   {index === 0 ? (
                     <CheckCircle className="stroke-accent fill-accent/30" />
                   ) : index == 1 ? (

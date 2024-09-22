@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nama": "Google mail",
+    "icon": "mail",
+    "link": "mailto://iqbalfarhan1996@gmail.com",
+    "value": "iqbalfarhan1996@gmail.com"
+  },
+  {
+    "id": 2,
+    "nama": "instagram",
+    "icon": "home",
+    "link": "https://www.instagram.com/iqbalfarhan08/",
+    "value": "@qbalfarhan08"
+  },
+  {
+    "id": 3,
+    "nama": "telegram",
+    "icon": "home",
+    "link": "https://t.me/iqbalfarhan08",
+    "value": "@iqbalfarhan08"
+  },
+  {
+    "id": 4,
+    "nama": "github",
+    "icon": "home",
+    "link": "https://github.com/iqbalfarhan",
+    "value": "iqbalfarhan"
+  },
+  {
+    "id": 5,
+    "nama": "saweria",
+    "icon": "home",
+    "link": "https://saweria.co/iqbalfarhan08",
+    "value": "iqbalfarhan08"
+  }
+]
