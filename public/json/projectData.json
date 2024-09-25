@@ -66,6 +66,17 @@
     "technologies": ["React native", "Expo"]
   },
   {
+    "id": "webstmik",
+    "name": "Website STMIK BORNEO INTERNASIONAL",
+    "sinopsys": "Website dan sistem akademik kampus STMIK BORNEO INTERNASIONAL",
+    "description": "",
+    "status": "stop development",
+    "image": "images/noimage.png",
+    "platform": ["android"],
+    "address": "",
+    "technologies": ["Codeigniter", "Bootstrap", "MySQL"]
+  },
+  {
     "id": "moreapps",
     "name": ">10 App atau Tools dikantor",
     "sinopsys": "Aplikasi dan tools yang saya kerjakan di kantor, berupa app web, bot dan lain-lain.",
