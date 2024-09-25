@@ -77,6 +77,28 @@
     "technologies": ["Codeigniter", "Bootstrap", "MySQL"]
   },
   {
+    "id": "imsakiyah",
+    "name": "Jadwal Imsakiyah",
+    "sinopsys": "Akan update setiap bulan ramadhan setiap tahun",
+    "description": "",
+    "status": "stop development",
+    "image": "images/noimage.png",
+    "platform": ["android"],
+    "address": "",
+    "technologies": ["React native expo", "Laravel 11 API"]
+  },
+  {
+    "id": "resep",
+    "name": "Resep makanan",
+    "sinopsys": "Akan update setiap bulan ramadhan setiap tahun",
+    "description": "",
+    "status": "stop development",
+    "image": "images/noimage.png",
+    "platform": ["android"],
+    "address": "",
+    "technologies": ["React native expo", "supabase"]
+  },
+  {
     "id": "moreapps",
     "name": ">10 App atau Tools dikantor",
     "sinopsys": "Aplikasi dan tools yang saya kerjakan di kantor, berupa app web, bot dan lain-lain.",
