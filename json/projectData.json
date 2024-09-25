@@ -27,7 +27,7 @@
     "sinopsys": "Project tutorial pembuatan aplikasi Point of sale di channel youtube saya pribadi @iqbalfarhan08",
     "description": "Project tutorial pembuatan aplikasi Point of Sale (POS) dapat ditemukan di channel YouTube pribadi saya @iqbalfarhan08. Dalam tutorial ini, saya membahas langkah-langkah dalam membangun aplikasi POS yang membantu pengelolaan transaksi penjualan secara efisien. Aplikasi ini dilengkapi dengan beberapa fitur penting, seperti data menu yang memungkinkan pengguna menambah, mengedit, dan menghapus daftar barang yang dijual; data pelanggan untuk menyimpan informasi pelanggan beserta riwayat pembelian mereka; dan data transaksi yang mencatat seluruh transaksi penjualan secara rinci. Selain itu, aplikasi ini juga mendukung fitur ekspor data transaksi ke Excel untuk memudahkan pembuatan laporan, serta fitur print struk yang memungkinkan cetak otomatis setelah pembayaran dilakukan. Tutorial ini cocok untuk pelaku usaha yang ingin memiliki aplikasi POS sederhana namun fungsional.",
     "status": "done",
-    "image": "",
+    "image": "images/noimage.png",
     "platform": ["web"],
     "address": "https://arunikasih.com",
     "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
@@ -49,10 +49,21 @@
     "sinopsys": "dokumenrahasia merupakan website yang difungsikan sebagai media penyimpanan surat rahasia berbasis web",
     "description": "Aplikasi ini adalah sebuah website yang berfungsi sebagai media penyimpanan surat berbasis web. Platform ini dirancang untuk memfasilitasi pengelolaan surat-menyurat secara digital dengan efisien. Namun, saya tidak dapat membagikan tautan atau akses ke website ini karena berisi data penting milik aparat negara, sehingga kerahasiaan dan keamanan informasi sangat dijaga.",
     "status": "production",
-    "image": "images/dokumenrahasia.png",
+    "image": "images/locked.png",
     "platform": ["web"],
     "address": "https://educardia.my.id/",
     "technologies": ["Laravel 9", "Tailwind CSS", "Daisyui", "MySQL"]
+  },
+  {
+    "id": "goro",
+    "name": "Goro Crypto currency",
+    "sinopsys": "aplikasi versi android untuk mata uang goro crypto currency",
+    "description": "",
+    "status": "stop development",
+    "image": "images/noimage.png",
+    "platform": ["android"],
+    "address": "",
+    "technologies": ["React native", "Expo"]
   },
   {
     "id": "moreapps",
@@ -60,7 +71,7 @@
     "sinopsys": "Aplikasi dan tools yang saya kerjakan di kantor, berupa app web, bot dan lain-lain.",
     "description": "Di kantor, saya mengerjakan berbagai aplikasi dan tools yang mencakup aplikasi web, bot, dan lain-lain. Proyek-proyek tersebut dirancang untuk mendukung kebutuhan operasional perusahaan, mulai dari pengelolaan data hingga otomatisasi tugas-tugas tertentu. Beberapa di antaranya adalah aplikasi web yang memfasilitasi proses bisnis internal, serta bot yang berfungsi untuk meningkatkan efisiensi dengan menangani tugas-tugas rutin dan otomatisasi alur kerja. Namun, saya tidak dapat memberikan daftar spesifik atau tautan langsung ke aplikasi dan tools tersebut karena semuanya berkaitan dengan data-data penting perusahaan yang bersifat sensitif dan rahasia. Keamanan informasi perusahaan adalah prioritas utama, sehingga akses terhadap sistem-sistem ini sangat terbatas.",
     "status": "active development",
-    "image": "images/moreapps.png",
+    "image": "images/locked.png",
     "platform": ["web", "bot telegram", "android"],
     "address": "",
     "technologies": [
