@@ -25,17 +25,34 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
-          node-version: 20
-          cache: 'npm' # atau pnpm/yarn
-      - run: npm install
-      - run: npm run build # Pastikan ini nge-generate folder /dist
+          version: 10 # Pake pnpm 10 sesuai request lo
+
+      - name: Set Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Fix SPA 404 (Optional but Recommended)
+        # Biar TanStack Router gak pecah pas direfresh di sub-path
+        run: cp dist/index.html dist/404.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # Ini kunci utamanya!
+          path: ./dist
 
   deploy:
     needs: build
