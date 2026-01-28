@@ -112,10 +112,9 @@ const useData = {
 		return [
 			{ name: 'laravel', value: 95 },
 			{ name: 'react js', value: 90 },
-			{ name: 'golang', value: 80 },
 			{ name: 'mysql', value: 90 },
-			{ name: 'javascript', value: 80 },
-			{ name: 'Kotlin', value: 70 },
+			{ name: 'react native', value: 70 },
+			{ name: 'figma', value: 90 },
 		];
 	},
 	projects: (): Project[] => {
