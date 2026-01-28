@@ -14,9 +14,9 @@ const SkillSection = () => {
 				<CardTitle icon={Settings2}>Skill profesional</CardTitle>
 			</CardHeader>
 			<CardContent className="grid gap-4">
-				{data.map((item) => {
+				{data.map((item, index) => {
 					return (
-						<div className="flex items-center">
+						<div className="flex items-center" key={index}>
 							<ItemTitle className="uppercase w-[40%]">{item.name}</ItemTitle>
 							<Progress className="w-[60%] bg-accent" value={item.value} />
 						</div>

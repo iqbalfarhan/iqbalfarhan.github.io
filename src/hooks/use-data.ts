@@ -66,22 +66,19 @@ const useData = {
 				kampus: 'STMIK BORNEO INTERNASIONAL',
 				tahun: '2015/2019',
 				jurusan: 'Sistem informasi',
-				keterangan:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quaerat provident quasi',
+				keterangan: 'Jurusan sistem informasi angkatan 2015',
 			},
 			{
 				kampus: 'LP3I Balikpapan',
 				tahun: '2013/2015',
 				jurusan: 'Informatika komputer',
-				keterangan:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quaerat provident quasi',
+				keterangan: 'Jurusan informatika komputer angkatan 2013',
 			},
 			{
 				kampus: 'MAN Balikpapan',
 				tahun: '2010/2013',
 				jurusan: 'Jurusan IPA',
-				keterangan:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quaerat provident quasi',
+				keterangan: 'Jurusan IPA angkatan 2010',
 			},
 		];
 	},
@@ -119,17 +116,17 @@ const useData = {
 	},
 	projects: (): Project[] => {
 		return [
-			// {
-			// 	title: 'Contoh android project',
-			// 	type: 'android',
-			// 	slug: 'contoh-android-project',
-			// 	desctiption: [
-			// 		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione numquam aut,',
-			// 		'eligendi id nihil nostrum officia fuga a debitis odio libero voluptates impedit nemo autem error molestiae ex maxime.',
-			// 	],
-			// 	thumbnail:
-			// 		'https://fastly.picsum.photos/id/448/300/200.jpg?hmac=WHgZcNfmMcA8Sl33YH3lirNV6pSOFPOrxigNhp-lNzc',
-			// },
+			{
+				title: 'Website Profile AxiomDev',
+				type: 'web',
+				slug: 'website-profile-axiomdev',
+				desctiption: [
+					'Kami mengerjakan website official ini secara team, website ini dapat di akses di https://axiomdev.id',
+					'Website ini berisi daftar anggota, project yang dikerjakan, article dan testimony customer',
+				],
+				thumbnail:
+					'https://fastly.picsum.photos/id/448/300/200.jpg?hmac=WHgZcNfmMcA8Sl33YH3lirNV6pSOFPOrxigNhp-lNzc',
+			},
 			// {
 			// 	title: 'Contoh design project',
 			// 	type: 'design',

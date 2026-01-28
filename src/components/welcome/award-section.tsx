@@ -12,9 +12,9 @@ const AwardSection = () => {
 				<CardTitle icon={Trophy}>Penghargaan</CardTitle>
 			</CardHeader>
 			<CardContent className="px-3">
-				{data.map((item) => {
+				{data.map((item, index) => {
 					return (
-						<Item size={'sm'}>
+						<Item size={'sm'} key={index}>
 							<ItemContent>
 								<ItemTitle>{item.name}</ItemTitle>
 								<ItemDescription>{item.description}</ItemDescription>

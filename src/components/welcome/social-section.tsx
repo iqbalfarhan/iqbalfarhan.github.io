@@ -12,9 +12,10 @@ const SocialSection = () => {
 				<CardTitle icon={Phone}>Koneksi sosial</CardTitle>
 			</CardHeader>
 			<div className="grid px-5">
-				{data.map((item) => {
+				{data.map((item, index) => {
 					return (
 						<a
+							key={index}
 							href={item.url}
 							target="_blank"
 							className={buttonVariants({

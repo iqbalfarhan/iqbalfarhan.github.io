@@ -4,6 +4,7 @@ import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools';
 
 import AppNavbar from '@/components/app/app-navbar';
 import { ThemeProvider } from '@/components/themes/theme-provider';
+import { Toaster } from '@/components/ui/sonner';
 
 export const Route = createRootRoute({
 	component: () => (
@@ -25,6 +26,7 @@ export const Route = createRootRoute({
 					},
 				]}
 			/>
+			<Toaster />
 		</ThemeProvider>
 	),
 });

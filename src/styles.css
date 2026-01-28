@@ -78,8 +78,10 @@
 	--card-foreground: oklch(0.9491 0 0);
 	--popover: oklch(0.2134 0 0);
 	--popover-foreground: oklch(0.9491 0 0);
-	--primary: oklch(0.9247 0.0524 66.1732);
-	--primary-foreground: oklch(0.2029 0.024 200.1962);
+	/* --primary: oklch(0.9247 0.0524 66.1732);
+	--primary-foreground: oklch(0.2029 0.024 200.1962); */
+	--primary: oklch(0.5854 0.2041 277.1173);
+	--primary-foreground: oklch(1 0 0);
 	--secondary: oklch(0.3163 0.019 63.6992);
 	--secondary-foreground: oklch(0.9247 0.0524 66.1732);
 	--muted: oklch(0.252 0 0);
@@ -112,7 +114,7 @@
 	--font-mono:
 		ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
 		'Courier New', monospace;
-	--radius: 0.5rem;
+	--radius: 0rem;
 	--shadow-x: 0;
 	--shadow-y: 1px;
 	--shadow-blur: 3px;

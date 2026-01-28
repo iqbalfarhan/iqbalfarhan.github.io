@@ -2,36 +2,20 @@ import { Moon, Sun } from 'lucide-react';
 
 import { useTheme } from '@/components/themes/theme-provider';
 import { Button } from '@/components/ui/button';
-import {
-	DropdownMenu,
-	DropdownMenuContent,
-	DropdownMenuItem,
-	DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
+import { cn } from '@/lib/utils';
+import { ButtonGroup } from '../ui/button-group';
 
 export function ModeToggle() {
-	const { setTheme } = useTheme();
+	const { setTheme, theme } = useTheme();
 
 	return (
-		<DropdownMenu>
-			<DropdownMenuTrigger asChild>
-				<Button variant="ghost" size="icon">
-					<Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-					<Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-					<span className="sr-only">Toggle theme</span>
-				</Button>
-			</DropdownMenuTrigger>
-			<DropdownMenuContent align="end">
-				<DropdownMenuItem onClick={() => setTheme('light')}>
-					Light
-				</DropdownMenuItem>
-				<DropdownMenuItem onClick={() => setTheme('dark')}>
-					Dark
-				</DropdownMenuItem>
-				<DropdownMenuItem onClick={() => setTheme('system')}>
-					System
-				</DropdownMenuItem>
-			</DropdownMenuContent>
-		</DropdownMenu>
+		<ButtonGroup>
+			<Button size={'icon'} variant={'muted'} onClick={() => setTheme('light')}>
+				<Sun className={cn(theme == 'light' && 'stroke-primary fill-muted')} />
+			</Button>
+			<Button size={'icon'} variant={'muted'} onClick={() => setTheme('dark')}>
+				<Moon className={cn(theme == 'dark' && 'stroke-primary fill-muted')} />
+			</Button>
+		</ButtonGroup>
 	);
 }

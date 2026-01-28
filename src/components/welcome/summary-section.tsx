@@ -9,10 +9,11 @@ const SummarySection = () => {
 			</CardHeader>
 			<CardContent className="space-y-4">
 				<p>
-					Multidisciplinary Developer & Designer. Spesialis dalam pengembangan
-					aplikasi Web dan Android dengan sentuhan desain yang presisi.
-					Memadukan logika pemrograman dengan estetika desain untuk menciptakan
-					produk yang fungsional, cantik, dan berdampak bagi pengguna.
+					Halo, saya Iqbal Farhan. Dengan pengalaman lebih dari 11 tahun di
+					dunia teknologi, sata spesialis dalam membangun Web Ecosystem, Mobile
+					Apps (React Native), dan UI Design yang nggak cuma estetik, tapi juga
+					fungsional. Lo punya ide besar? Mari kita eksekusi jadi produk digital
+					yang dapet impact nyata.
 				</p>
 			</CardContent>
 		</Card>

@@ -12,9 +12,9 @@ const CertificateSection = () => {
 				<CardTitle icon={BadgeCheck}>Sertifikat kompetensi</CardTitle>
 			</CardHeader>
 			<CardContent className="px-3">
-				{datas.map((item) => {
+				{datas.map((item, index) => {
 					return (
-						<Item size={'sm'}>
+						<Item size={'sm'} key={index}>
 							<ItemContent>
 								<ItemTitle>{item.name}</ItemTitle>
 								<ItemDescription>{item.description}</ItemDescription>

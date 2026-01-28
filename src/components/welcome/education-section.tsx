@@ -12,16 +12,16 @@ const EducationSection = () => {
 				<CardTitle icon={HatGlasses}>Riwayat pendidikan</CardTitle>
 			</CardHeader>
 			<CardContent className="px-3">
-				{data.map((item) => {
+				{data.map((item, index) => {
 					return (
-						<div className="flex">
-							<Item className="py-1.5 w-[40%]">
+						<div className="flex items-start" key={index}>
+							<Item className="w-[40%]">
 								<ItemContent>
 									<ItemTitle>{item.kampus}</ItemTitle>
 									<ItemDescription>{item.tahun}</ItemDescription>
 								</ItemContent>
 							</Item>
-							<Item className="py-1.5 w-[60%]">
+							<Item className="w-[60%]">
 								<ItemContent>
 									<ItemTitle>{item.jurusan}</ItemTitle>
 									<ItemDescription>{item.keterangan}</ItemDescription>

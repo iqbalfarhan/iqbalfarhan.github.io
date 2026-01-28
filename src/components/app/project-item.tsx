@@ -79,8 +79,8 @@ const ProjectItem: FC<Props> = ({ project }) => {
 					</Field>
 					<Field>
 						<FieldLabel>Description</FieldLabel>
-						{project.desctiption.map((p) => (
-							<p>{p}</p>
+						{project.desctiption.map((p, index) => (
+							<p key={index}>{p}</p>
 						))}
 					</Field>
 				</div>

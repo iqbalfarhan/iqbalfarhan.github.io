@@ -3,14 +3,15 @@ import { cn } from '@/lib/utils';
 import { Link } from '@tanstack/react-router';
 import {
 	Briefcase,
-	Flag,
 	Github,
 	Hand,
 	Menu,
-	Minus,
+	MessageCircle,
+	Phone,
 	Smile,
 } from 'lucide-react';
 import { ModeToggle } from '../themes/mode-toggle';
+import { Avatar, AvatarImage } from '../ui/avatar';
 import { Button, buttonVariants } from '../ui/button';
 import {
 	Item,
@@ -22,6 +23,7 @@ import {
 import {
 	Sheet,
 	SheetContent,
+	SheetDescription,
 	SheetFooter,
 	SheetHeader,
 	SheetTitle,
@@ -50,8 +52,9 @@ const AppNavbar = () => {
 						<SheetContent side="top">
 							<SheetHeader>
 								<SheetTitle>Main menu</SheetTitle>
+								<SheetDescription>Iqbal farhan syuhada</SheetDescription>
 							</SheetHeader>
-							<SheetFooter className="px-6 grid">
+							<div className="grid px-4">
 								<Link
 									to="/"
 									activeProps={{
@@ -82,6 +85,24 @@ const AppNavbar = () => {
 									<Briefcase />
 									Hasil karya
 								</Link>
+								<Link
+									to="/kontak"
+									activeProps={{
+										className: cn(buttonVariants({ variant: 'default' })),
+									}}
+									className={cn(
+										buttonVariants({
+											variant: 'ghost',
+											className: 'justify-start',
+										}),
+									)}
+								>
+									<Phone />
+									Kontak
+								</Link>
+							</div>
+							<SheetFooter className="px-6">
+								<ModeToggle />
 							</SheetFooter>
 						</SheetContent>
 					</Sheet>
@@ -91,20 +112,17 @@ const AppNavbar = () => {
 	}
 
 	return (
-		<Item>
-			<ItemMedia variant={'image'}>
-				<img src="/logo192.png" />
-			</ItemMedia>
-			<ItemContent>
-				<ItemTitle className="text-lg">Iqbalfarhan</ItemTitle>
-			</ItemContent>
-			<ItemActions>
+		<div className="flex items-center justify-center py-8 px-4 gap-3">
+			<div className="p-3 bg-accent flex rounded-full dark:rounded">
+				<Avatar className="size-10 mr-3 rounded-full dark:rounded">
+					<AvatarImage src="/logo192.png" />
+				</Avatar>
 				<Link
 					to="/"
 					activeProps={{
 						className: buttonVariants({ variant: 'default' }),
 					}}
-					className={buttonVariants({ variant: 'ghost' })}
+					className={buttonVariants({ variant: 'muted' })}
 				>
 					<Smile />
 					My resume
@@ -114,23 +132,34 @@ const AppNavbar = () => {
 					activeProps={{
 						className: buttonVariants({ variant: 'default' }),
 					}}
-					className={buttonVariants({ variant: 'ghost' })}
+					className={buttonVariants({ variant: 'muted' })}
 				>
 					<Briefcase />
 					Portfolio
 				</Link>
-				<Button variant={'ghost'} disabled>
-					<Minus className="rotate-90" />
-				</Button>
-				<Button variant="ghost" size={'icon'}>
+				<Link
+					to="/kontak"
+					activeProps={{
+						className: buttonVariants({ variant: 'default' }),
+					}}
+					className={buttonVariants({ variant: 'muted' })}
+				>
+					<MessageCircle />
+					Kontak
+				</Link>
+				<a
+					href="https://github.com/iqbalfarhan"
+					target="_blank"
+					className={buttonVariants({ variant: 'muted' })}
+				>
 					<Github />
-				</Button>
+					Github
+				</a>
+			</div>
+			<div className="p-3 bg-accent flex rounded-full dark:rounded">
 				<ModeToggle />
-				<Button variant="ghost" size={'icon'}>
-					<Flag />
-				</Button>
-			</ItemActions>
-		</Item>
+			</div>
+		</div>
 	);
 };
 

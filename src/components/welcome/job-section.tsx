@@ -12,9 +12,9 @@ const JobSection = () => {
 				<CardTitle icon={Briefcase}>Pengalaman kerja</CardTitle>
 			</CardHeader>
 			<CardContent className="px-3">
-				{data.map((item) => {
+				{data.map((item, index) => {
 					return (
-						<div className="flex items-start">
+						<div className="flex items-start" key={index}>
 							<Item className="w-[40%]">
 								<ItemContent>
 									<ItemTitle>{item.company}</ItemTitle>
