@@ -1,6 +1,6 @@
 import useData from '@/hooks/use-data';
-import { Download, Printer } from 'lucide-react';
-import { Button } from '../ui/button';
+import { Download } from 'lucide-react';
+import { buttonVariants } from '../ui/button';
 
 const data = useData.latest_update();
 
@@ -11,24 +11,13 @@ const FooterSection = () => {
 				Halaman ini terakhir diupdate pada {data}
 			</p>
 			<div className="flex gap-2 items-center">
-				<Button
-					variant={'outline'}
-					onClick={() => {
-						window.print();
-					}}
-				>
-					<Printer />
-					Print CV
-				</Button>
-				<Button
-					variant={'default'}
-					onClick={() => {
-						window.print();
-					}}
+				<a
+					href="/ats-friendly-resume-iqbal-farhan-syuhada.pdf"
+					className={buttonVariants()}
 				>
 					<Download />
 					Download CV
-				</Button>
+				</a>
 			</div>
 		</div>
 	);

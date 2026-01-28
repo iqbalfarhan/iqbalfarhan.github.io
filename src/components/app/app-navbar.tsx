@@ -1,15 +1,7 @@
 import { useIsMobile } from '@/hooks/use-mobile';
 import { cn } from '@/lib/utils';
 import { Link } from '@tanstack/react-router';
-import {
-	Briefcase,
-	Github,
-	Hand,
-	Menu,
-	MessageCircle,
-	Phone,
-	Smile,
-} from 'lucide-react';
+import { Briefcase, Menu, MessageCircle, Phone, Smile } from 'lucide-react';
 import { ModeToggle } from '../themes/mode-toggle';
 import { Avatar, AvatarImage } from '../ui/avatar';
 import { Button, buttonVariants } from '../ui/button';
@@ -67,8 +59,8 @@ const AppNavbar = () => {
 										}),
 									)}
 								>
-									<Hand />
-									Curriculum vitae
+									<Smile />
+									Resume
 								</Link>
 								<Link
 									to="/projects"
@@ -125,7 +117,7 @@ const AppNavbar = () => {
 					className={buttonVariants({ variant: 'muted' })}
 				>
 					<Smile />
-					My resume
+					Resume
 				</Link>
 				<Link
 					to="/projects"
@@ -147,14 +139,6 @@ const AppNavbar = () => {
 					<MessageCircle />
 					Kontak
 				</Link>
-				<a
-					href="https://github.com/iqbalfarhan"
-					target="_blank"
-					className={buttonVariants({ variant: 'muted' })}
-				>
-					<Github />
-					Github
-				</a>
 			</div>
 			<div className="p-3 bg-accent flex rounded-full dark:rounded">
 				<ModeToggle />
