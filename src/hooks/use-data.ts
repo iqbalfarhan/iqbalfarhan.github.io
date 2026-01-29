@@ -5,7 +5,7 @@ import type { Job } from '@/types/job';
 import type { Project } from '@/types/project';
 import type { Skill } from '@/types/skill';
 import type { Social } from '@/types/social';
-import { Github, Instagram, Mail, MessageCircle } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, MessageCircle } from 'lucide-react';
 
 const useData = {
 	latest_update: () => {
@@ -32,6 +32,11 @@ const useData = {
 				title: 'wa.me/+628999779527',
 				icon: MessageCircle,
 				url: 'https://wa.me/+628999779527',
+			},
+			{
+				title: 'iqbal-syuhada-73371b218',
+				icon: Linkedin,
+				url: 'https://www.linkedin.com/in/iqbal-syuhada-73371b218/',
 			},
 		];
 	},
