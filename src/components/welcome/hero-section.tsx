@@ -1,3 +1,6 @@
+import { Download } from 'lucide-react';
+import { buttonVariants } from '../ui/button';
+
 const HeroSection = () => {
 	return (
 		<div className="flex flex-col items-center py-12 gap-12">
@@ -8,6 +11,10 @@ const HeroSection = () => {
 					Web developer, Android developer, UI/UX Designer
 				</p>
 			</div>
+			<a href="/resume-iqbalfarhan-29012026.pdf" className={buttonVariants()}>
+				<Download />
+				Download CV
+			</a>
 		</div>
 	);
 };
