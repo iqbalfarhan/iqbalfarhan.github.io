@@ -1,4 +1,4 @@
 export type Skill = {
 	name: string;
-	value: number;
+	level: 'beginner' | 'good' | 'skillfull' | 'expert' | 'experienced';
 };

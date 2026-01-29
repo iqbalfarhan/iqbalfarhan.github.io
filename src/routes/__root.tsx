@@ -11,7 +11,7 @@ export const Route = createRootRoute({
 		<ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 			<div className="container mx-auto space-y-6">
 				<AppNavbar />
-				<div className="mx-auto w-full max-w-6xl print:max-w-full space-y-6 p-8 md:p-0">
+				<div className="mx-auto w-full max-w-7xl print:max-w-full space-y-6 p-8 md:p-0">
 					<Outlet />
 				</div>
 			</div>

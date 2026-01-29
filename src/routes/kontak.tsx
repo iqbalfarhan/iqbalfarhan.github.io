@@ -7,6 +7,7 @@ import {
 	CardHeader,
 	CardTitle,
 } from '@/components/ui/card';
+import DotSeparator from '@/components/ui/dot-separator';
 import { Field, FieldLabel } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -30,6 +31,7 @@ function RouteComponent() {
 					Kontak saya lewat form disamping ata dibawah ini, atau coba kontak
 					saya dengan cara lainnya dengan klik tombol berikut.
 				</p>
+				<DotSeparator />
 				<Field>
 					<FieldLabel>Kontak lainnya:</FieldLabel>
 					<div className="flex flex-wrap gap-1">

@@ -107,11 +107,11 @@ const useData = {
 	},
 	skills: (): Skill[] => {
 		return [
-			{ name: 'laravel', value: 95 },
-			{ name: 'react js', value: 90 },
-			{ name: 'mysql', value: 90 },
-			{ name: 'react native', value: 70 },
-			{ name: 'figma', value: 90 },
+			{ name: 'laravel', level: 'expert' },
+			{ name: 'react js', level: 'experienced' },
+			{ name: 'mysql', level: 'expert' },
+			{ name: 'react native', level: 'skillfull' },
+			{ name: 'figma', level: 'experienced' },
 		];
 	},
 	projects: (): Project[] => {

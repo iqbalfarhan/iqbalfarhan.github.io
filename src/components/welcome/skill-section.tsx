@@ -3,7 +3,7 @@ import type { Skill } from '@/types/skill';
 import { Settings2 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { ItemTitle } from '../ui/item';
-import { Progress } from '../ui/progress';
+import SkillLevelIndicator from '../ui/skill-level-indicator';
 
 const data: Skill[] = useData.skills();
 
@@ -18,7 +18,7 @@ const SkillSection = () => {
 					return (
 						<div className="flex items-center" key={index}>
 							<ItemTitle className="uppercase w-[40%]">{item.name}</ItemTitle>
-							<Progress className="w-[60%] bg-accent" value={item.value} />
+							<SkillLevelIndicator className="w-[60%]" level={item.level} />
 						</div>
 					);
 				})}

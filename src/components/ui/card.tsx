@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import { cn } from '@/lib/utils';
 import type { LucideIcon } from 'lucide-react';
+import DotSeparator from './dot-separator';
 
 function Card({ className, ...props }: React.ComponentProps<'div'>) {
 	return (
@@ -32,7 +33,7 @@ function CardHeader({
 			{...props}
 		>
 			{children}
-			<div className="h-1 w-48 bg-primary dark:bg-foreground/50 mt-4 rounded-2xl" />
+			<DotSeparator />
 		</div>
 	);
 }
