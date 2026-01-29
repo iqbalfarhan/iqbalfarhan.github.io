@@ -52,7 +52,7 @@ function RouteComponent() {
 				</Field>
 			</div>
 			<div>
-				<Card className="bg-card">
+				<Card>
 					<CardHeader>
 						<CardTitle icon={FormInput}>Input</CardTitle>
 					</CardHeader>

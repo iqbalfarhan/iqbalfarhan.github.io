@@ -17,13 +17,13 @@ function RouteComponent() {
 	return (
 		<>
 			<HeroSection />
-			<div className="grid print:grid-cols-1 xl:grid-cols-5">
-				<div className="grid print:grid-cols-1 xl:col-span-3 h-fit">
+			<div className="grid print:grid-cols-1 xl:grid-cols-5 gap-6 dark:gap-0">
+				<div className="grid print:grid-cols-1 xl:col-span-3 h-fit gap-6 dark:gap-0">
 					<SummarySection />
 					<JobSection />
 					<EducationSection />
 				</div>
-				<div className="grid print:grid-cols-1 xl:col-span-2 h-fit">
+				<div className="grid print:grid-cols-1 xl:col-span-2 h-fit gap-6 dark:gap-0">
 					<SkillSection />
 					<CertificateSection />
 					<AwardSection />
