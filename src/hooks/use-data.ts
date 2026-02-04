@@ -5,7 +5,7 @@ import type { Job } from '@/types/job';
 import type { Project } from '@/types/project';
 import type { Skill } from '@/types/skill';
 import type { Social } from '@/types/social';
-import { Github, Instagram, Linkedin, Mail, MessageCircle } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
 
 const useData = {
 	latest_update: () => {
@@ -27,11 +27,6 @@ const useData = {
 				title: 'iqbalfarhan1996@gmail.com',
 				icon: Mail,
 				url: 'mailto:iqbalfarhan1996@gmail.com',
-			},
-			{
-				title: 'wa.me/+628999779527',
-				icon: MessageCircle,
-				url: 'https://wa.me/+628999779527',
 			},
 			{
 				title: 'iqbal-syuhada-73371b218',
