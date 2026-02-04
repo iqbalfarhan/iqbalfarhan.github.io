@@ -19,7 +19,7 @@ export const indicator: Record<Skill['level'], number> = {
 const SkillLevelIndicator: FC<Props> = ({ level = 'expert', className }) => {
 	const selected = indicator[level];
 	return (
-		<div className={cn('flex gap-2 h-2', className)}>
+		<div className={cn('flex gap-1 h-2', className)}>
 			{Array.from({
 				length: 5,
 			}).map((_, index) => {

@@ -104,8 +104,8 @@ const AppNavbar = () => {
 	}
 
 	return (
-		<div className="flex items-center justify-center py-6 w-full px-4 gap-3 sticky top-0 mx-auto">
-			<div className="p-3 bg-accent flex rounded-full dark:rounded shadow-xs">
+		<div className="flex items-center justify-center py-6 w-full px-4 gap-3 sticky z-10 top-0 mx-auto">
+			<div className="p-3 bg-accent flex rounded-full dark:rounded shadow-xl">
 				<Avatar className="size-10 mr-3 rounded-full dark:rounded">
 					<AvatarImage src="/logo192.png" />
 				</Avatar>
@@ -140,7 +140,7 @@ const AppNavbar = () => {
 					Kontak
 				</Link>
 			</div>
-			<div className="p-3 bg-accent flex rounded-full dark:rounded shadow-xs">
+			<div className="p-3 bg-accent flex rounded-full dark:rounded shadow-xl">
 				<ModeToggle />
 			</div>
 		</div>

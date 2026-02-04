@@ -2,7 +2,6 @@ import type { Award } from '@/types/award';
 import type { Certificate } from '@/types/certificate';
 import type { Education } from '@/types/education';
 import type { Job } from '@/types/job';
-import type { Project } from '@/types/project';
 import type { Skill } from '@/types/skill';
 import type { Social } from '@/types/social';
 import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
@@ -113,9 +112,6 @@ const useData = {
 			{ name: 'react native', level: 'skillfull' },
 			{ name: 'figma', level: 'experienced' },
 		];
-	},
-	projects: (): Project[] => {
-		return [];
 	},
 };
 

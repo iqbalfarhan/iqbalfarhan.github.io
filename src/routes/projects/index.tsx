@@ -32,6 +32,8 @@ import { useProject } from '@/hooks/use-project';
 import type { Project } from '@/types/project';
 import { createFileRoute, Link } from '@tanstack/react-router';
 import {
+	ArrowDownAZ,
+	ArrowUpAZ,
 	Code2,
 	Filter,
 	MessageCircle,
@@ -40,10 +42,9 @@ import {
 	RefreshCcw,
 	Search,
 	Smartphone,
-	SortAsc,
 	type LucideIcon,
 } from 'lucide-react';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 
 export const Route = createFileRoute('/projects/')({
 	component: RouteComponent,
@@ -78,8 +79,24 @@ const jenisProject: {
 
 function RouteComponent() {
 	const [type, setType] = useState<Project['type']>();
+	const [sort, setSort] = useState<'asc' | 'desc'>('asc');
 
 	const { data, refetch, isLoading, isRefetching } = useProject.lists();
+
+	const sortedProjects = useMemo(() => {
+		if (!data) return [];
+
+		// 1. Filter dulu berdasarkan type (kalau type-nya ada/dipilih)
+		let filtered = type
+			? data.filter((project) => project.type === type)
+			: [...data];
+
+		// 2. Baru di-sort hasilnya
+		return filtered.sort((a, b) => {
+			const comparison = a.title.localeCompare(b.title);
+			return sort === 'asc' ? comparison : -comparison;
+		});
+	}, [data, sort, type]); // Jangan lupa tambahin 'type' di dependency array
 
 	return (
 		<>
@@ -110,19 +127,20 @@ function RouteComponent() {
 							))}
 						</DropdownMenuContent>
 					</DropdownMenu>
-					<Button size={'icon'}>
-						<SortAsc />
+					<Button
+						size={'icon'}
+						onClick={() => setSort((old) => (old === 'asc' ? 'desc' : 'asc'))}
+					>
+						{sort == 'desc' ? <ArrowUpAZ /> : <ArrowDownAZ />}
 					</Button>
 				</ButtonGroup>
 			</div>
 
 			{(data ?? []).length > 0 ? (
 				<div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-6 dark:gap-0">
-					{data
-						?.filter((f) => (type ? f.type === type : true))
-						?.map((item, index) => (
-							<ProjectItem project={item} key={index} />
-						))}
+					{sortedProjects?.map((item, index) => (
+						<ProjectItem project={item} key={index} />
+					))}
 					<Card className="h-full bg-accent">
 						<CardContent className="h-full" />
 						<CardHeader>
