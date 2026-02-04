@@ -3,5 +3,6 @@ export type Project = {
 	type: 'web' | 'android' | 'api' | 'design';
 	slug: string;
 	thumbnail?: string;
+	client?: string;
 	desctiption: string[];
 };

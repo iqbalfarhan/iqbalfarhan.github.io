@@ -5,28 +5,31 @@ import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools';
 import AppNavbar from '@/components/app/app-navbar';
 import { ThemeProvider } from '@/components/themes/theme-provider';
 import { Toaster } from '@/components/ui/sonner';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 export const Route = createRootRoute({
 	component: () => (
 		<ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-			<div className="container mx-auto space-y-6">
-				<AppNavbar />
-				<div className="mx-auto w-full max-w-7xl print:max-w-full space-y-6 p-8 md:p-0">
-					<Outlet />
+			<QueryClientProvider client={new QueryClient()}>
+				<div className="container mx-auto space-y-6">
+					<AppNavbar />
+					<div className="mx-auto w-full max-w-7xl print:max-w-full space-y-6 p-8 md:p-0">
+						<Outlet />
+					</div>
 				</div>
-			</div>
-			<TanStackDevtools
-				config={{
-					position: 'bottom-right',
-				}}
-				plugins={[
-					{
-						name: 'Tanstack Router',
-						render: <TanStackRouterDevtoolsPanel />,
-					},
-				]}
-			/>
-			<Toaster />
+				<TanStackDevtools
+					config={{
+						position: 'bottom-right',
+					}}
+					plugins={[
+						{
+							name: 'Tanstack Router',
+							render: <TanStackRouterDevtoolsPanel />,
+						},
+					]}
+				/>
+				<Toaster />
+			</QueryClientProvider>
 		</ThemeProvider>
 	),
 });

@@ -120,52 +120,7 @@ const useData = {
 		];
 	},
 	projects: (): Project[] => {
-		return [
-			{
-				title: 'Website Profile AxiomDev',
-				type: 'web',
-				slug: 'website-profile-axiomdev',
-				desctiption: [
-					'Kami mengerjakan website official ini secara team, website ini dapat di akses di https://axiomdev.id',
-					'Website ini berisi daftar anggota, project yang dikerjakan, article dan testimony customer',
-				],
-				thumbnail:
-					'https://fastly.picsum.photos/id/448/300/200.jpg?hmac=WHgZcNfmMcA8Sl33YH3lirNV6pSOFPOrxigNhp-lNzc',
-			},
-			// {
-			// 	title: 'Contoh design project',
-			// 	type: 'design',
-			// 	slug: 'contoh-design-project',
-			// 	desctiption: [
-			// 		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione numquam aut,',
-			// 		'eligendi id nihil nostrum officia fuga a debitis odio libero voluptates impedit nemo autem error molestiae ex maxime.',
-			// 	],
-			// 	thumbnail:
-			// 		'https://fastly.picsum.photos/id/143/300/200.jpg?hmac=H72th9mSiyGFlh2x1MkbiukTJ32FtSeREnHX9WMrBfQ',
-			// },
-			// {
-			// 	title: 'Contoh web project',
-			// 	type: 'web',
-			// 	slug: 'contoh-web-project',
-			// 	desctiption: [
-			// 		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione numquam aut,',
-			// 		'eligendi id nihil nostrum officia fuga a debitis odio libero voluptates impedit nemo autem error molestiae ex maxime.',
-			// 	],
-			// 	thumbnail:
-			// 		'https://fastly.picsum.photos/id/738/300/200.jpg?hmac=aCujhxZ8Lq6Sj8d3iYFTYPBMrqZ9AHNKWCe7Kylddes',
-			// },
-			// {
-			// 	title: 'Contoh api project',
-			// 	type: 'api',
-			// 	slug: 'contoh-api-project',
-			// 	desctiption: [
-			// 		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione numquam aut,',
-			// 		'eligendi id nihil nostrum officia fuga a debitis odio libero voluptates impedit nemo autem error molestiae ex maxime.',
-			// 	],
-			// 	thumbnail:
-			// 		'https://fastly.picsum.photos/id/929/300/200.jpg?hmac=8Wtfz6VsHDZp-UtwHLeemRB_8Qo2AIueepVpR0_vvSw',
-			// },
-		];
+		return [];
 	},
 };
 

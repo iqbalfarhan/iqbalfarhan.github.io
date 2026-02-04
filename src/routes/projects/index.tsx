@@ -1,4 +1,5 @@
 import ProjectItem from '@/components/app/project-item';
+import SubmitButton from '@/components/app/submit-button';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { ButtonGroup } from '@/components/ui/button-group';
 import {
@@ -8,6 +9,12 @@ import {
 	CardHeader,
 	CardTitle,
 } from '@/components/ui/card';
+import {
+	DropdownMenu,
+	DropdownMenuContent,
+	DropdownMenuItem,
+	DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import {
 	Empty,
 	EmptyContent,
@@ -21,23 +28,59 @@ import {
 	InputGroupAddon,
 	InputGroupInput,
 } from '@/components/ui/input-group';
-import useData from '@/hooks/use-data';
+import { useProject } from '@/hooks/use-project';
+import type { Project } from '@/types/project';
 import { createFileRoute, Link } from '@tanstack/react-router';
 import {
+	Code2,
 	Filter,
 	MessageCircle,
+	Monitor,
+	Palette,
 	RefreshCcw,
 	Search,
+	Smartphone,
 	SortAsc,
+	type LucideIcon,
 } from 'lucide-react';
+import { useState } from 'react';
 
 export const Route = createFileRoute('/projects/')({
 	component: RouteComponent,
 });
 
-const data = useData.projects();
+const jenisProject: {
+	label: string;
+	key: Project['type'];
+	icon: LucideIcon;
+}[] = [
+	{
+		label: 'Aplikasi web',
+		key: 'web',
+		icon: Monitor,
+	},
+	{
+		label: 'Aplikasi android',
+		key: 'android',
+		icon: Smartphone,
+	},
+	{
+		label: 'UI/UX Design',
+		key: 'design',
+		icon: Palette,
+	},
+	{
+		label: 'API Service',
+		key: 'api',
+		icon: Code2,
+	},
+];
 
 function RouteComponent() {
+	const [type, setType] = useState<Project['type']>();
+
+	const { data, refetch, isLoading, isRefetching } = useProject.lists();
+
 	return (
 		<>
 			<div className="py-6">
@@ -52,25 +95,39 @@ function RouteComponent() {
 				</InputGroup>
 
 				<ButtonGroup>
-					<Button size={'icon'}>
-						<Filter />
-					</Button>
+					<DropdownMenu>
+						<DropdownMenuTrigger asChild>
+							<Button size={'icon'}>
+								<Filter />
+							</Button>
+						</DropdownMenuTrigger>
+						<DropdownMenuContent align="end">
+							{jenisProject?.map((t) => (
+								<DropdownMenuItem key={t.key} onSelect={() => setType(t.key)}>
+									<t.icon />
+									{t.label}
+								</DropdownMenuItem>
+							))}
+						</DropdownMenuContent>
+					</DropdownMenu>
 					<Button size={'icon'}>
 						<SortAsc />
 					</Button>
 				</ButtonGroup>
 			</div>
 
-			{data.length > 0 ? (
+			{(data ?? []).length > 0 ? (
 				<div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-6 dark:gap-0">
-					{data.map((item, index) => (
-						<ProjectItem project={item} key={index} />
-					))}
+					{data
+						?.filter((f) => (type ? f.type === type : true))
+						?.map((item, index) => (
+							<ProjectItem project={item} key={index} />
+						))}
 					<Card className="h-full bg-accent">
 						<CardContent className="h-full" />
 						<CardHeader>
 							<CardTitle>
-								Gimana gimana? Tertarik untuk buat aplikasi juga?
+								Gimana? Apakah tertarik untuk buat aplikasi juga?
 							</CardTitle>
 						</CardHeader>
 						<CardFooter>
@@ -97,10 +154,12 @@ function RouteComponent() {
 						</EmptyDescription>
 					</EmptyHeader>
 					<EmptyContent>
-						<Button>
-							<RefreshCcw />
-							Refresh
-						</Button>
+						<SubmitButton
+							label="Refresh"
+							icon={RefreshCcw}
+							onClick={() => refetch()}
+							disabled={isLoading || isRefetching}
+						/>
 					</EmptyContent>
 				</Empty>
 			)}

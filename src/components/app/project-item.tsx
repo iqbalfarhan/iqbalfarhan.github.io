@@ -9,7 +9,8 @@ import {
 	X,
 	type LucideIcon,
 } from 'lucide-react';
-import type { FC } from 'react';
+import { type FC } from 'react';
+import { ImageZoom } from '../kibo-ui/image-zoom';
 import { Button } from '../ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { Field, FieldLabel } from '../ui/field';
@@ -41,58 +42,72 @@ const ProjectItem: FC<Props> = ({ project }) => {
 	const isMobile = useIsMobile();
 
 	return (
-		<Sheet>
-			<SheetTrigger asChild>
-				<Card
-					className={cn(
-						'bg-card dark:bg-transparent hover:z-50 overflow-hidden',
-						project.thumbnail && 'pt-0',
-					)}
-				>
-					{project.thumbnail && (
-						<img
-							src={project.thumbnail}
-							className="w-full aspect-video object-cover grayscale hover:grayscale-0"
-						/>
-					)}
-					<CardHeader>
-						<CardTitle icon={cardIcon(project.type)}>{project.title}</CardTitle>
-					</CardHeader>
-					<CardContent>
-						<p>{project.desctiption[0]}</p>
+		<Card
+			className={cn(
+				'bg-card dark:bg-transparent hover:z-50 overflow-hidden',
+				project.thumbnail && 'pt-0',
+			)}
+		>
+			{project.thumbnail && (
+				<ImageZoom>
+					<img
+						src={project.thumbnail}
+						className="w-full aspect-video object-cover hover:grayscale-0 dark:grayscale-100 dark:hover:grayscale-0"
+					/>
+				</ImageZoom>
+			)}
+			<Sheet>
+				<SheetTrigger asChild>
+					<CardContent className="p-0 space-y-4 cursor-pointer">
+						<CardHeader>
+							<CardTitle icon={cardIcon(project.type)}>
+								{project.title}
+							</CardTitle>
+						</CardHeader>
+						<CardContent className="text-left">
+							<p>{project.desctiption[0]}</p>
+						</CardContent>
 					</CardContent>
-				</Card>
-			</SheetTrigger>
-			<SheetContent side={isMobile ? 'bottom' : 'right'}>
-				<SheetHeader>
-					<SheetTitle>{project.title}</SheetTitle>
-					<SheetDescription>{project.type}</SheetDescription>
-				</SheetHeader>
-				<div className="space-y-8 px-6">
-					<img src={project.thumbnail} className="aspect-video w-full" />
-					<Field>
-						<FieldLabel>Tipe karya</FieldLabel>
-						<div className="flex gap-3 items-center">
-							<Icon />
-							{project.type}
-						</div>
-					</Field>
-					<Field>
-						<FieldLabel>Description</FieldLabel>
-						{project.desctiption.map((p, index) => (
-							<p key={index}>{p}</p>
-						))}
-					</Field>
-				</div>
-				<SheetFooter>
-					<SheetClose asChild>
-						<Button variant={'outline'} size={'icon-lg'}>
-							<X />
-						</Button>
-					</SheetClose>
-				</SheetFooter>
-			</SheetContent>
-		</Sheet>
+				</SheetTrigger>
+				<SheetContent side={isMobile ? 'bottom' : 'right'} className="flex">
+					<SheetHeader>
+						<SheetTitle>{project.title}</SheetTitle>
+						<SheetDescription>{project.type}</SheetDescription>
+					</SheetHeader>
+					<div className="space-y-8 px-6 overflow-auto">
+						<ImageZoom>
+							<img src={project.thumbnail} className="aspect-video w-full" />
+						</ImageZoom>
+						<Field>
+							<FieldLabel>Tipe karya</FieldLabel>
+							<div className="flex gap-3 items-center">
+								<Icon />
+								{project.type}
+							</div>
+						</Field>
+						<Field>
+							<FieldLabel>Description</FieldLabel>
+							{project.desctiption.map((p, index) => (
+								<p key={index}>{p}</p>
+							))}
+						</Field>
+						<Field>
+							<FieldLabel>Client</FieldLabel>
+							<p>{project.client}</p>
+						</Field>
+					</div>
+
+					<SheetFooter>
+						<SheetClose asChild>
+							<Button variant={'outline'}>
+								<X />
+								Close
+							</Button>
+						</SheetClose>
+					</SheetFooter>
+				</SheetContent>
+			</Sheet>
+		</Card>
 	);
 };
 

@@ -40,11 +40,13 @@ function CardHeader({
 
 function CardTitle({
 	className,
+	labelClassName,
 	children,
 	icon: Icon,
 	...props
 }: React.ComponentProps<'div'> & {
 	icon?: LucideIcon;
+	labelClassName?: string;
 }) {
 	return (
 		<div
@@ -52,11 +54,11 @@ function CardTitle({
 			className={cn('leading-none uppercase text-lg font-extrabold', className)}
 			{...props}
 			children={
-				<div className="flex items-center gap-3">
+				<div className={'flex items-center gap-3'}>
 					{Icon ? (
-						<Icon className="size-6 stroke-primary fill-secondary" />
+						<Icon className={'size-6 stroke-primary fill-secondary line'} />
 					) : null}
-					{children}
+					<h4 className={labelClassName}>{children}</h4>
 				</div>
 			}
 		/>
