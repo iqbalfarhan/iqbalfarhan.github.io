@@ -1,6 +1,7 @@
 import { Moon, Sun } from 'lucide-react';
 
 import { useTheme } from '@/components/themes/theme-provider';
+import { Button } from '../ui/button';
 import { ButtonGroup } from '../ui/button-group';
 import { ToggleGroup, ToggleGroupItem } from '../ui/toggle-group';
 
@@ -9,8 +10,9 @@ export function ModeToggle() {
 
 	return (
 		<ButtonGroup>
+			<Button variant={'muted'}>Theme:</Button>
 			<ToggleGroup
-				variant={'outline'}
+				variant={'muted'}
 				type="single"
 				value={theme}
 				onValueChange={(v) => setTheme(v == 'light' ? 'light' : 'dark')}

@@ -40,10 +40,10 @@ function RouteComponent() {
 	return (
 		<div className="grid md:grid-cols-2">
 			<div className="space-y-8 p-8">
-				<h1 className="font-black text-5xl">Let's goo</h1>
+				<h1 className="font-black text-5xl">Kontak saya</h1>
 				<p>
-					Kontak saya lewat form diskusi disamping atau dibawah ini, atau coba
-					kontak saya dengan cara lainnya dengan klik tombol berikut.
+					Kontak saya lewat form diskusi atau coba kontak saya dengan cara
+					lainnya dengan klik tombol berikut.
 				</p>
 				<DotSeparator />
 				<Field>
