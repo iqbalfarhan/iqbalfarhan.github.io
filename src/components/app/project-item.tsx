@@ -95,6 +95,12 @@ const ProjectItem: FC<Props> = ({ project }) => {
 							<FieldLabel>Client</FieldLabel>
 							<p>{project.client}</p>
 						</Field>
+						<Field>
+							<FieldLabel>Link</FieldLabel>
+							<a href={project.link} target="_blank" rel="noopener noreferrer">
+								{project.link}
+							</a>
+						</Field>
 					</div>
 
 					<SheetFooter>

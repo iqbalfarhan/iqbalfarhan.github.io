@@ -4,5 +4,6 @@ export type Project = {
 	slug: string;
 	thumbnail?: string;
 	client?: string;
+	link?: string;
 	desctiption: string[];
 };
