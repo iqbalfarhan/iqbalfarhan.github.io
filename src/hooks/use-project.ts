@@ -24,6 +24,17 @@ const projects: Project[] = [
 		thumbnail: '/projects/iqmn.png',
 		client: 'iqbal farhan syuhada',
 	},
+	{
+		title: 'Arunikasih invitation',
+		type: 'web',
+		slug: 'arunikasih-online-wedding-invitation',
+		desctiption: [
+			'Platform untuk membuat undangan pernikahan online, sharing link undangan, Monitoring tamu yang hardir',
+			'Aplikasi berbasis web ini bersifat selfservice, dimana user dapat membuat undangan pernikahan online sendiri dengan mudah',
+		],
+		thumbnail: '/projects/arunikasih.png',
+		client: 'iqbal farhan syuhada',
+	},
 ];
 
 async function fetchProjects(): Promise<Project[]> {
