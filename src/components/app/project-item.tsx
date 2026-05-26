@@ -64,7 +64,7 @@ const ProjectItem: FC<Props> = ({ project }) => {
 								{project.title}
 							</CardTitle>
 						</CardHeader>
-						<CardContent className="text-left">
+						<CardContent className="text-left line-clamp-3">
 							<p>{project.desctiption[0]}</p>
 						</CardContent>
 					</CardContent>
