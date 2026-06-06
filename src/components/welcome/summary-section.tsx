@@ -10,10 +10,14 @@ const SummarySection = () => {
 			<CardContent className="space-y-4">
 				<p>
 					Halo, saya Iqbal Farhan. Dengan pengalaman lebih dari 11 tahun di
-					dunia teknologi, sata spesialis dalam membangun Web Ecosystem, Mobile
-					Apps (React Native), dan UI Design yang nggak cuma estetik, tapi juga
-					fungsional. Lo punya ide besar? Mari kita eksekusi jadi produk digital
-					yang dapet impact nyata.
+					industri teknologi, saya spesialis dalam membangun Ekosistem Web,
+					Aplikasi Seluler (React Native), serta Desain UI yang tidak hanya
+					estetis, tetapi juga fungsional.
+				</p>
+				<p>
+					Apakah Anda memiliki ide besar? Mari kita berkolaborasi untuk
+					mengeksekusinya menjadi produk digital yang mampu memberikan dampak
+					nyata.
 				</p>
 			</CardContent>
 		</Card>

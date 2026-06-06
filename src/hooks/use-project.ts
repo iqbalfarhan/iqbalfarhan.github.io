@@ -35,7 +35,7 @@ const projects: Project[] = [
 			'Aplikasi berbasis web ini bersifat selfservice, dimana user dapat membuat undangan pernikahan online sendiri dengan mudah',
 		],
 		link: 'https://arunikasih.com',
-		thumbnail: '/projects/arunikasih2.png',
+		thumbnail: '/projects/arunikasih-inv.png',
 		client: 'iqbal farhan syuhada',
 	},
 ];

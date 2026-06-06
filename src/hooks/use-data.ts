@@ -8,7 +8,7 @@ import { Github, Instagram, Linkedin, Mail } from 'lucide-react';
 
 const useData = {
 	latest_update: () => {
-		return '28 Januari 2026';
+		return '6 Juni 2026';
 	},
 	socials: (): Social[] => {
 		return [
@@ -93,14 +93,14 @@ const useData = {
 	certificates: (): Certificate[] => {
 		return [
 			{
-				name: 'Programmer',
+				name: 'Software Developer (Programmer)',
 				description:
-					'Sertifikasi BNSP programmer berlaku dari tahun 2012 - 2015',
+					'Lembaga Sertitikasi Profesi Informatika. berlaku dari tahun 2019 - 2022',
 			},
 			{
-				name: 'Web programmer',
+				name: 'Junior Web programmer',
 				description:
-					'Sertifikasi BNSP programmer berlaku dari tahun 2012 - 2015',
+					'Lembaga Sertitikasi Profesi Telematika. berlaku dari tahun 2015 - 2017',
 			},
 		];
 	},
